@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -9,15 +10,59 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p {
   margin: 0;
 }
 
-p {
-  margin: 0;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.me-section {
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.me-section img {
+  width: 100%
+}
+
+.me-section {
+  display: flex;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+}
+
+.page-wrapper {
+  background-color: cornflowerblue;
+}
+
+.List-of-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.List-of-projects img {
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 600px;
+  max-width: 600px;
+}
+.flex {
+  display: flex;
+  flex-basis: 50%;
+}
+.Project-X {
+  flex-basis: 100%;
+  height: 50vh;
+  background-image: url("../images/mountains-under-mist-morning-amazing-260nw-1725825019.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
