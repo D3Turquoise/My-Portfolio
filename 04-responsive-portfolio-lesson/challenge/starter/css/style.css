@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -17,7 +16,7 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
+  background-color: white;
 }
 
 .me-section {
@@ -37,11 +36,11 @@ header {
 .hero-banner {
   display: flex;
   justify-content: flex-end;
-  background-color: aqua;
+  background-color: #2a607c;
 }
 
 .page-wrapper {
-  background-color: cornflowerblue;
+  background-color: #2a607c;
 }
 
 .List-of-projects {
@@ -66,3 +65,13 @@ header {
   background-position: center;
   background-size: cover;
 }
+.contact-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr; 1fr;
+
+}
+ @media all and (min-width:320px) and (max-width:1280px);
+ body {
+  background-color: white;
+ }
